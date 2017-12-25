@@ -2,21 +2,23 @@
 <html>
   <head>
     <title>Colmar Academy</title>
+    <link rel="icon" href="./resources/images/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="./resources/css/reset.css">
     <link rel="stylesheet" href="./resources/css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:300,400" rel="stylesheet">
+
   </head>
   <body>
 
     <!-- Header -->
     <Header>
       <div class="logo-title">
-        <img class="logo container" src="./resources/images/ic-logo.svg" href="index.html"/>
-        <span class="title"><a href="index.html"><em>COLMAR</em>ACADEMY</a></span>
+        <img class="logo container" src="./resources/images/ic-logo.svg" href="index.html" alt="Logo"/>
+        <span class="title"><a id="site-title-logo" href="index.html"><em>COLMAR</em>ACADEMY</a></span>
       </div>
 
       <nav class="desktop-menu container">
-        <ul>
+        <ul role="presentation">
           <li><a href="#">On Campus</a></li>
           <li><a href="#">Online</a></li>
           <li><a href="#">Our Companies</a></li>
@@ -24,10 +26,10 @@
         </ul>
       </nav>
       <div class="mobile-menu">
-        <img src="./resources/images/ic-logo.svg" href="index.html"/>
-        <img src="./resources/images/ic-on-campus.svg"/>
-        <img src="./resources/images/ic-online.svg"/>
-        <img src="./resources/images/ic-login.svg"/>
+        <img src="./resources/images/ic-logo.svg" href="index.html" alt=""/>
+        <img src="./resources/images/ic-on-campus.svg" alt="On campus icon"/>
+        <img src="./resources/images/ic-online.svg" alt="Online icon"/>
+        <img src="./resources/images/ic-login.svg" alt="Login icon"/>
       </div>
     </header>
 
@@ -35,7 +37,7 @@
     <div class="main-content">
       <!-- Main Banner -->
       <div class="main-banner desktop">
-        <img src="./resources/images/banner.jpg"/>
+        <img src="./resources/images/banner.jpg" alt="Students reading books"/>
         <div class="banner-content">
           <h1>Learn something new everyday</h1>
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
@@ -49,36 +51,36 @@
       <!-- Main articles -->
       <div class="lead-articles desktop">
         <div class="main-article">
-          <img src="./resources/images/information-main.jpg"/>
+          <img src="./resources/images/information-main.jpg" alt="Man reading book in park"/>
           <h2>It doesn't hurt to keep practicing</h2>
           <p>Curabitur quis pretium augue, quis malesuada risus. Sed sit amet tellus orci. Nunc ultricies, orci vel dignissim auctor, mauris lorem accumsan dui, et tristique nibh purus id ante. Integer eu velit lacus. Donec eget porta libero, vel ornare mauris. </p>
           <span class="quote">Emanuel, Senior Strategist at hired.com<span>
         </div>
         <div class="other-articles">
           <div class="article">
-            <img src="./resources/images/information-orientation.jpg"/>
+            <img src="./resources/images/information-orientation.jpg" alt="path with leaves"/>
             <img class="mobile-image" src="./resources/images/information-orientation-mobile.jpg"/>
             <div class="article-info middle-bottom">
-              <h5>Orientation date</h5>
-              <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+              <h5 aria-label="Article name">Orientation date</h5>
+              <p aria-label="Description">Tue 10/11 & Wed 10/12: 8am-3pm</p>
               <span><a href="#">Read more</a></span>
             </div>
           </div>
           <div class="article">
-            <img src="./resources/images/information-campus.jpg"/>
+            <img src="./resources/images/information-campus.jpg" alt="Reading room campus image"/>
             <img class="mobile-image" src="./resources/images/information-campus-mobile.jpg"/>
             <div class="article-info middle-bottom">
-              <h5>Our campus</h5>
-              <p>Find which campus is close by you</p>
+              <h5 aria-label="Article name">Our campus</h5>
+              <p aria-label="Description">Find which campus is close by you</p>
               <span><a href="#">Read more</a></span>
             </div>
           </div>
           <div class="article" id="selected">
-            <img src="./resources/images/information-guest-lecture.jpg"/>
+            <img src="./resources/images/information-guest-lecture.jpg" alt="Guest lecture thumbnail"/>
             <img class="mobile-image" src="./resources/images/information-guest-lecture-mobile.jpg"/>
             <div class="article-info">
-              <h5>Our guest lecture</h5>
-              <p>Join a keynote with Oliver Sach about music in medical treatment</p>
+              <h5 aria-label="Article name">Our guest lecture</h5>
+              <p aria-label="Description">Join a keynote with Oliver Sach about music in medical treatment</p>
               <span><a href="#">Read more</a></span>
             </div>
           </div>
@@ -93,25 +95,25 @@
         </div>
         <div class="row top">
           <div class="learning">
-            <img src="./resources/images/course-software.jpg"/>
+            <img src="./resources/images/course-software.jpg" alt="software image"/>
             <div class="learning-info">
-              <h5>Software Engineering</h5>
+              <h5 aria-label="Course title">Software Engineering</h5>
               <span>Courses</span>
               <p>Web Development, Mobile Development, iOT, APIs</p>
             </div>
           </div>
           <div class="learning middle">
-            <img src="./resources/images/course-computer-art.jpg"/>
+            <img src="./resources/images/course-computer-art.jpg" alt="computer art image"/>
             <div class="learning-info">
-              <h5>Computer art</h5>
+              <h5 aria-label="Course title">Computer art</h5>
               <span>Courses</span>
               <p>Imaging & Design, Web Design, Motion Graphics & Visual Effects, Computer Animation</p>
             </div>
           </div>
           <div class="learning">
-            <img src="./resources/images/course-design.jpg"/>
+            <img src="./resources/images/course-design.jpg" alt="Design course image"/>
             <div class="learning-info">
-              <h5>Design</h5>
+              <h5 aria-label="Course title">Design</h5>
               <span>Courses</span>
               <p>User Experience Design, User Research, Visual Design</p>
             </div>
@@ -120,25 +122,25 @@
         </div>
         <div class="row">
           <div class="learning">
-            <img src="./resources/images/course-data.jpg"/>
+            <img src="./resources/images/course-data.jpg" alt="Data course image"/>
             <div class="learning-info">
-              <h5>Data</h5>
+              <h5 aria-label="Course title">Data</h5>
               <span>Courses</span>
               <p>Data Science, Big Data, SQL, Data Visualization</p>
             </div>
           </div>
           <div class="learning middle">
-            <img src="./resources/images/course-business.jpg"/>
+            <img src="./resources/images/course-business.jpg" alt="Business course image"/>
             <div class="learning-info">
-              <h5>Business</h5>
+              <h5 aria-label="Course title">Business</h5>
               <span>Courses</span>
               <p>Product Development, Business Development, Startup</p>
             </div>
           </div>
           <div class="learning">
-            <img src="./resources/images/course-marketing.jpg"/>
+            <img src="./resources/images/course-marketing.jpg" alt="Marketing course image"/>
             <div class="learning-info">
-              <h5>Marketing</h5>
+              <h5 aria-label="Course title">Marketing</h5>
               <span>Courses</span>
               <p>Analytics, Content Marketing, Mobile Marketing</p>
             </div>
@@ -149,7 +151,7 @@
       <div class="learning-module-mobile">
         <div class="section-header">
           <h2>Start Learning</h2>
-          <ul>
+          <ul role="presentation">
             <li><a href="#">Software engineering</a></li>
             <li><a href="#">Computer art</a></li>
             <li><a href="#">Design</a></li>
@@ -167,8 +169,8 @@
         </div>
         <div class="thesis-articles">
           <div class="main-article">
-            <video width="100%" height="auto" controls>
-              <source src="./resources/videos/thesis.mp4">"
+            <video width="100%" height="auto" controls >
+              <source src="./resources/videos/thesis.mp4">
               Your browser does not support the video tag.
             </video>
             <h5>Reimagine urban</h5>
@@ -176,14 +178,14 @@
           </div>
           <div class="other-articles">
             <div class="article" id="selected">
-              <img src="./resources/images/thesis-fisma.jpg"/>
+              <img src="./resources/images/thesis-fisma.jpg" alt="Fisma image"/>
               <div class="article-info">
                 <h5>Fisma: Design and Prototype</h5>
                 <p>Designer showcase of new prototype product</p>
               </div>
             </div>
             <div class="article">
-              <img src="./resources/images/thesis-now-and-then.jpg"/>
+              <img src="./resources/images/thesis-now-and-then.jpg" alt="Now and then image"/>
               <div class="article-info">
                 <h5>Now and then</h5>
                 <p>Research study about New York</p>
@@ -207,7 +209,7 @@
     <footer>
       <span>© 2016 Colmar Academy. All rights reserved</span>
       <nav class="footer-nav">
-        <ul>
+        <ul role="presentation">
           <li><a href="Terms.html">Terms</a></li>
           <li><a href="privacy.html">Privacy</a></li>
         </ul>
